@@ -1,0 +1,47 @@
+{
+  "name": "react-sugars",
+  "version": "0.1.0",
+  "description": "Simple type-safe react-components to boost code readability and overall coding experience",
+  "keywords": [
+    "react-sugars",
+    "react-helpers",
+    "helper-components"
+  ],
+  "homepage": "https://github.com/Cho-586/react-sugars#readme",
+  "bugs": {
+    "url": "https://github.com/Cho-586/react-sugars/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cho-586/react-sugars.git"
+  },
+  "license": "ISC",
+  "author": "Chosen Etim",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
